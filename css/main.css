@@ -1,0 +1,102 @@
+* {
+  font-family: "Lalezar", cursive; }
+
+body {
+  color: #424242 !important;
+  background-color: #f4f4f4 !important; }
+
+.farsi-alignment {
+  direction: rtl; }
+
+.org-color {
+  color: #93c4ff !important; }
+
+.org-background {
+  background-color: #93c4ff !important; }
+
+.navbar-item-color .nav-link {
+  color: #424242 !important;
+  opacity: 0.85; }
+
+.navbar-item-color .nav-link:hover {
+  opacity: 1; }
+
+.navbar-item-color .navbar-toggler {
+  color: #424242 !important;
+  border-color: rgba(66, 66, 66, 0.2); }
+
+.navbar-item-color .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(66, 66, 66, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
+
+#copyright > a {
+  color: #000;
+  text-decoration: underline; }
+
+#copyright {
+  background-color: inherit;
+  font-family: inherit;
+  padding: 10px 10px;
+  text-align: center; }
+
+.bg-org {
+  background-color: #93c4ff !important; }
+
+a.bg-org:focus, a.bg-org:hover, button.bg-org:focus, button.bg-org:hover {
+  background-color: #93c4ff !important; }
+
+.navbar-org .navbar-brand {
+  color: #424242 !important; }
+
+.navbar-org .navbar-brand:focus, .navbar-org .navbar-brand:hover {
+  color: #424242 !important; }
+
+.navbar-org .navbar-nav .nav-link {
+  color: rgba(66, 66, 66, 0.5) !important; }
+
+.navbar-org .navbar-nav .nav-link:focus, .navbar-org .navbar-nav .nav-link:hover {
+  color: rgba(66, 66, 66, 0.75) !important; }
+
+.navbar-org .navbar-nav .nav-link.disabled {
+  color: rgba(66, 66, 66, 0.25) !important; }
+
+.navbar-org .navbar-nav .active > .nav-link, .navbar-org .navbar-nav .nav-link.active, .navbar-org .navbar-nav .nav-link.show, .navbar-org .navbar-nav .show > .nav-link {
+  color: #424242 !important; }
+
+.navbar-org .navbar-toggler {
+  color: rgba(66, 66, 66, 0.5) !important;
+  border-color: rgba(255, 255, 255, 0.1); }
+
+.navbar-org .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
+
+.navbar-org .navbar-text {
+  color: rgba(66, 66, 66, 0.5) !important; }
+
+.navbar-org .navbar-text a {
+  color: #424242 !important; }
+
+.navbar-org .navbar-text a:focus, .navbar-org .navbar-text a:hover {
+  color: #424242 !important; }
+
+@media (max-width: 575px) {
+  .navbar-brand {
+    margin-left: 2rem;
+    margin-right: 0rem; } }
+@media (min-width: 576px) {
+  .navbar-brand {
+    margin-left: 2rem;
+    margin-right: 0rem; } }
+@media (min-width: 768px) {
+  .navbar-brand {
+    margin-left: 2rem;
+    margin-right: 0rem; } }
+@media (min-width: 992px) {
+  .navbar-brand {
+    margin-left: 0rem;
+    margin-right: 1rem; } }
+@media (min-width: 1200px) {
+  .navbar-brand {
+    margin-left: 0rem;
+    margin-right: 1rem; } }
+
+/*# sourceMappingURL=main.css.map */
