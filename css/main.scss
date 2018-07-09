@@ -107,7 +107,11 @@ a.bg-org:focus, a.bg-org:hover, button.bg-org:focus, button.bg-org:hover {
 
 .navbar-org .navbar-text a:focus, .navbar-org .navbar-text a:hover {
     color: $font-color
-} //Bootstrap modified by API Team (IA) - finished here.
+} 
+
+.border-org {
+    border-color: $org-color;
+}//Bootstrap modified by API Team (IA) - finished here.
 
 
 footer {
@@ -169,6 +173,25 @@ footer {
     justify-content: center !important;
     margin: auto;
 }
+
+#landingpage {
+    position: fixed;
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background: $backgroung-color;
+    z-index: 20;
+}
+//Coded by PQ
+.addressUl{
+    text-decoration: none;
+    direction: rtl;
+}
+.addressUl li{
+    display: inline-block;
+}
+//Coded by PQ - finished
  
 
 // Extra small devices (portrait phones, less than 576px)
@@ -214,11 +237,11 @@ footer {
         margin-right: 2rem;
     }
     #map {
-        top: 100px;
+        top: 50px;
     }
     #footer-col-3 .footer-col-3-child {
         position: relative;
-        top: 100px;
+        top: 50px;
     }
 }
 // Extra large devices (large desktops, 1200px and up)

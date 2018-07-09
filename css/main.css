@@ -78,6 +78,9 @@ a.bg-org:focus, a.bg-org:hover, button.bg-org:focus, button.bg-org:hover {
 .navbar-org .navbar-text a:focus, .navbar-org .navbar-text a:hover {
   color: #424242 !important; }
 
+.border-org {
+  border-color: #93c4ff !important; }
+
 footer {
   color: #424242 !important;
   background-color: #93c4ff !important;
@@ -133,6 +136,22 @@ footer {
   justify-content: center !important;
   margin: auto; }
 
+#landingpage {
+  position: fixed;
+  display: flex;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  background: #f4f4f4 !important;
+  z-index: 20; }
+
+.addressUl {
+  text-decoration: none;
+  direction: rtl; }
+
+.addressUl li {
+  display: inline-block; }
+
 @media (max-width: 575.98px) {
   .navbar-brand {
     margin-left: 2rem;
@@ -163,11 +182,11 @@ footer {
     margin-right: 2rem; }
 
   #map {
-    top: 100px; }
+    top: 50px; }
 
   #footer-col-3 .footer-col-3-child {
     position: relative;
-    top: 100px; } }
+    top: 50px; } }
 @media (min-width: 1200px) {
   .navbar-brand {
     margin-left: 0rem;
