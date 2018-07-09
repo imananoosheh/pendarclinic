@@ -1,6 +1,6 @@
 function xYZ (){
     var replacement = '';
-    replacement += '<div>| API Group |</div>';
+    replacement += '<div>| Designed & Developed by API Team © 2018 | All rights reserved. |</div>';
     return replacement;
 }
 $('#copyright').empty().html(xYZ());
