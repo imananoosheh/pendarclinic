@@ -1,4 +1,4 @@
-$font-faimly: 'Lalezar', cursive;
+$font-faimly: 'Yekan', cursive;
 $org-color: rgb(147,196,255) !important;
 $font-color: rgb(66,66,66) !important;
 $font-color-25: rgba(66,66,66,.25) !important;
@@ -190,6 +190,18 @@ footer {
 }
 .addressUl li{
     display: inline-block;
+}
+
+@font-face{
+    font-family: 'Yekan';
+    src: url('fonts/BYekan.eot'),
+    url('fonts/BYekan.ttf'),url('fonts/BYekan.woff');
+}
+*{
+    font-family: 'Yekan';
+}
+.font-color-50{
+    color: $font-color-50 !important;
 }
 //Coded by PQ - finished
  
