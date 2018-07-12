@@ -81,6 +81,32 @@ a.bg-org:focus, a.bg-org:hover, button.bg-org:focus, button.bg-org:hover {
 .border-org {
   border-color: #93c4ff !important; }
 
+.btn-outline-org {
+  color: #424242 !important;
+  background-color: transparent;
+  background-image: none;
+  border-color: #93c4ff !important; }
+
+.btn-outline-org:hover {
+  color: #fff;
+  background-color: #93c4ff !important;
+  border-color: #93c4ff !important; }
+
+.btn-outline-org.focus, .btn-outline-org:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); }
+
+.btn-outline-org.disabled, .btn-outline-org:disabled {
+  color: #93c4ff !important;
+  background-color: transparent; }
+
+.btn-outline-org:not(:disabled):not(.disabled).active, .btn-outline-org:not(:disabled):not(.disabled):active, .show > .btn-outline-org.dropdown-toggle {
+  color: #424242 !important;
+  background-color: #93c4ff !important;
+  border-color: #93c4ff !important; }
+
+.btn-outline-org:not(:disabled):not(.disabled).active:focus, .btn-outline-org:not(:disabled):not(.disabled):active:focus, .show > .btn-outline-org.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); }
+
 footer {
   color: #424242 !important;
   background-color: #93c4ff !important;
@@ -147,6 +173,9 @@ footer {
 
 #footer-social-icon i {
   color: #424242 !important; }
+
+#landingpage button {
+  text-decoration: none !important; }
 
 .addressUl {
   text-decoration: none;

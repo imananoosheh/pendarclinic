@@ -111,6 +111,37 @@ a.bg-org:focus, a.bg-org:hover, button.bg-org:focus, button.bg-org:hover {
 
 .border-org {
     border-color: $org-color;
+}
+.btn-outline-org {
+    color: $font-color;
+    background-color: transparent;
+    background-image: none;
+    border-color: $org-color
+}
+
+.btn-outline-org:hover {
+    color: #fff;
+    background-color: $org-color;
+    border-color: $org-color
+}
+
+.btn-outline-org.focus, .btn-outline-org:focus {
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .5)
+}
+
+.btn-outline-org.disabled, .btn-outline-org:disabled {
+    color: $org-color;
+    background-color: transparent
+}
+
+.btn-outline-org:not(:disabled):not(.disabled).active, .btn-outline-org:not(:disabled):not(.disabled):active, .show>.btn-outline-org.dropdown-toggle {
+    color: $font-color;
+    background-color: $org-color;
+    border-color: $org-color
+}
+
+.btn-outline-org:not(:disabled):not(.disabled).active:focus, .btn-outline-org:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-org.dropdown-toggle:focus {
+    box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .5)
 }//Bootstrap modified by API Team (IA) - finished here.
 
 
@@ -187,6 +218,9 @@ footer {
     i {
     color: $font-color;
     }
+}
+#landingpage button {
+    text-decoration: none !important;
 }
 //Coded by PQ
 .addressUl{
