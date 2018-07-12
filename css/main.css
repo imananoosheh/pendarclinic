@@ -1,5 +1,5 @@
-/* * {
-  font-family: "Lalezar", cursive; } */
+* {
+  font-family: "Yekan", cursive; }
 
 body {
   color: #424242 !important;
@@ -145,12 +145,24 @@ footer {
   background: #f4f4f4 !important;
   z-index: 20; }
 
+#footer-social-icon i {
+  color: #424242 !important; }
+
 .addressUl {
   text-decoration: none;
   direction: rtl; }
 
 .addressUl li {
   display: inline-block; }
+
+@font-face {
+  font-family: 'Yekan';
+  src: url("fonts/BYekan.eot"), url("fonts/BYekan.ttf"), url("fonts/BYekan.woff"); }
+* {
+  font-family: 'Yekan'; }
+
+.font-color-50 {
+  color: rgba(66, 66, 66, 0.5) !important !important; }
 
 @media (max-width: 575.98px) {
   .navbar-brand {
@@ -181,22 +193,26 @@ footer {
     margin-left: 0rem;
     margin-right: 2rem; }
 
-  #map {
-    top: 50px; }
-
+  /*if instagram embedded code came to footer , comments in here should be removed*/
+  /*#map {
+      top: 50px;
+  }
   #footer-col-3 .footer-col-3-child {
-    position: relative;
-    top: 50px; } }
+      position: relative;
+      top: 50px;
+  }*/ }
 @media (min-width: 1200px) {
   .navbar-brand {
     margin-left: 0rem;
     margin-right: 2rem; }
 
-  #map {
-    top: 100px; }
-
+  /*if instagram embedded code came to footer , comments in here should be removed*/
+  /*#map {
+      top: 100px;
+  }
   #footer-col-3 .footer-col-3-child {
-    position: relative;
-    top: 100px; } }
+      position: relative;
+      top: 100px;
+  }*/ }
 
 /*# sourceMappingURL=main.css.map */

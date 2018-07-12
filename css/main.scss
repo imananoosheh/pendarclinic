@@ -183,6 +183,11 @@ footer {
     background: $backgroung-color;
     z-index: 20;
 }
+#footer-social-icon {
+    i {
+    color: $font-color;
+    }
+}
 //Coded by PQ
 .addressUl{
     text-decoration: none;
@@ -248,13 +253,14 @@ footer {
         margin-left: 0rem;
         margin-right: 2rem;
     }
-    #map {
+    /*if instagram embedded code came to footer , comments in here should be removed*/
+    /*#map {
         top: 50px;
     }
     #footer-col-3 .footer-col-3-child {
         position: relative;
         top: 50px;
-    }
+    }*/
 }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px){
@@ -262,11 +268,12 @@ footer {
         margin-left: 0rem;
         margin-right: 2rem;
     }
-    #map {
+    /*if instagram embedded code came to footer , comments in here should be removed*/
+    /*#map {
         top: 100px;
     }
     #footer-col-3 .footer-col-3-child {
         position: relative;
         top: 100px;
-    }
+    }*/
 }
