@@ -177,6 +177,21 @@ footer {
 #landingpage button {
   text-decoration: none !important; }
 
+#gototopbtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  border: 1px solid #93c4ff !important;
+  outline: none;
+  color: #424242 !important;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 0px;
+  background-color: rgba(255, 255, 255, 0.75); }
+
 .addressUl {
   text-decoration: none;
   direction: rtl; }
@@ -191,7 +206,7 @@ footer {
   font-family: 'Yekan'; }
 
 .font-color-50 {
-  color: rgba(66, 66, 66, 0.5) !important !important; }
+  color: rgba(66, 66, 66, 0.5) !important; }
 
 @media (max-width: 575.98px) {
   .navbar-brand {

@@ -222,6 +222,22 @@ footer {
 #landingpage button {
     text-decoration: none !important;
 }
+#gototopbtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: 1px solid $org-color;
+    outline: none;
+    color: $font-color;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 0px;
+    background-color: rgba(255, 255, 255, .75);
+}
+
 //Coded by PQ
 .addressUl{
     text-decoration: none;
@@ -240,7 +256,7 @@ footer {
     font-family: 'Yekan';
 }
 .font-color-50{
-    color: $font-color-50 !important;
+    color: $font-color-50;
 }
 //Coded by PQ - finished
  
