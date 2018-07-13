@@ -1,4 +1,4 @@
-$font-faimly: 'Yekan', cursive;
+$font-faimly: 'Yekan';
 $org-color: rgb(147,196,255) !important;
 $font-color: rgb(66,66,66) !important;
 $font-color-25: rgba(66,66,66,.25) !important;
@@ -171,6 +171,11 @@ footer {
         border: 2px solid $backgroung-color;
         padding: 50px 5px;
         height: 400px;
+        .footer-address {
+            .col-2{
+                text-align: center !important;
+            }
+        }
     }
 }
 #map {
@@ -215,6 +220,7 @@ footer {
     z-index: 20;
 }
 #footer-social-icon {
+    text-align: center !important;
     i {
     color: $font-color;
     }
@@ -252,9 +258,7 @@ footer {
     src: url('fonts/BYekan.eot'),
     url('fonts/BYekan.ttf'),url('fonts/BYekan.woff');
 }
-*{
-    font-family: 'Yekan';
-}
+
 .font-color-50{
     color: $font-color-50;
 }
