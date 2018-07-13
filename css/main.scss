@@ -1,4 +1,4 @@
-$font-faimly: 'Yekan', cursive;
+$font-family: 'Yekan', cursive;
 $org-color: rgb(147,196,255) !important;
 $font-color: rgb(66,66,66) !important;
 $font-color-25: rgba(66,66,66,.25) !important;
@@ -7,7 +7,7 @@ $font-color-75: rgba(66,66,66,.75) !important;
 $backgroung-color: rgb(244,244,244) !important;
 
 * {
-    font-family: $font-faimly;
+    font-family: $font-family;
 }
 
 body {
@@ -258,6 +258,8 @@ footer {
 .font-color-50{
     color: $font-color-50;
 }
+
+
 //Coded by PQ - finished
  
 
