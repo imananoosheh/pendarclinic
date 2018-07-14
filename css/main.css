@@ -131,8 +131,6 @@ footer {
     border: 2px solid #f4f4f4 !important;
     padding: 50px 5px;
     height: 400px; }
-    #footer-col-3 .footer-col-3-child .footer-address .col-2 {
-      text-align: center !important; }
 
 #map {
   width: 100%;
@@ -168,8 +166,11 @@ footer {
   position: fixed;
   display: flex;
   margin: auto;
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
+  top: 5%;
+  left: 5%;
+  border: 5px solid #93c4ff !important;
   background: #f4f4f4 !important;
   z-index: 20; }
 
@@ -216,7 +217,20 @@ footer {
 
   footer {
     padding-right: 0px !important;
-    padding-left: 0px !important; } }
+    padding-left: 0px !important; }
+
+  #landingpage h4 {
+    font-size: 1.2rem; }
+  #landingpage .row .col-4 a, #landingpage .row .col-4 button {
+    width: 70px;
+    height: 90px; }
+  #landingpage .row .col-4 p {
+    font-size: .8rem; }
+  #landingpage div.col-12 {
+    margin-top: 1.5rem !important;
+    font-size: 15px !important; }
+  #landingpage div.row {
+    margin-top: 1.5rem !important; } }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .navbar-brand {
     margin-left: 2rem;
@@ -224,7 +238,20 @@ footer {
 
   footer {
     padding-right: 0px !important;
-    padding-left: 0px !important; } }
+    padding-left: 0px !important; }
+
+  #landingpage h4 {
+    font-size: 1.2rem; }
+  #landingpage .row .col-4 a, #landingpage .row .col-4 button {
+    width: 70px;
+    height: 90px; }
+  #landingpage .row .col-4 p {
+    font-size: .8rem; }
+  #landingpage div.col-12 {
+    margin-top: 1.5rem !important;
+    font-size: 15px !important; }
+  #landingpage div.row {
+    margin-top: 1.5rem !important; } }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .navbar-brand {
     margin-left: 2rem;
@@ -232,11 +259,19 @@ footer {
 
   footer {
     padding-right: 0px !important;
-    padding-left: 0px !important; } }
+    padding-left: 0px !important; }
+
+  #landingpage .row .col-4 a, #landingpage .row .col-4 button {
+    width: 100px;
+    height: 100px; } }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .navbar-brand {
     margin-left: 0rem;
     margin-right: 2rem; }
+
+  #landingpage .row .col-4 a, #landingpage .row .col-4 button {
+    width: 100px;
+    height: 100px; }
 
   /*if instagram embedded code came to footer , comments in here should be removed*/
   /*#map {
@@ -250,6 +285,10 @@ footer {
   .navbar-brand {
     margin-left: 0rem;
     margin-right: 2rem; }
+
+  #landingpage .row .col-4 a, #landingpage .row .col-4 button {
+    width: 100px;
+    height: 100px; }
 
   /*if instagram embedded code came to footer , comments in here should be removed*/
   /*#map {

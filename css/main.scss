@@ -171,11 +171,6 @@ footer {
         border: 2px solid $backgroung-color;
         padding: 50px 5px;
         height: 400px;
-        .footer-address {
-            .col-2{
-                text-align: center !important;
-            }
-        }
     }
 }
 #map {
@@ -214,10 +209,14 @@ footer {
     position: fixed;
     display: flex;
     margin: auto;
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
+    border: 5px solid $org-color;
     background: $backgroung-color;
     z-index: 20;
+    
 }
 #footer-social-icon {
     text-align: center !important;
@@ -275,6 +274,25 @@ footer {
         padding-right: 0px !important;
         padding-left: 0px !important;
     }
+    #landingpage {
+        h4 {
+            font-size: 1.2rem;
+        }
+        .row .col-4 a, .row .col-4 button {
+            width: 70px;
+            height: 90px;
+        }
+        .row .col-4 p {
+            font-size: .8rem;
+        }
+        div.col-12 {
+            margin-top: 1.5rem !important;
+            font-size: 15px !important;
+        }
+        div.row {
+            margin-top: 1.5rem !important;
+        }
+    }
 
 }
 // Small devices (landscape phones, 576px and up)
@@ -286,6 +304,25 @@ footer {
     footer {
         padding-right: 0px !important;
         padding-left: 0px !important;
+    }
+    #landingpage {
+        h4 {
+            font-size: 1.2rem;
+        }
+        .row .col-4 a, .row .col-4 button {
+            width: 70px;
+            height: 90px;
+        }
+        .row .col-4 p {
+            font-size: .8rem;
+        }
+        div.col-12 {
+            margin-top: 1.5rem !important;
+            font-size: 15px !important;
+        }
+        div.row {
+            margin-top: 1.5rem !important;
+        }
     }
 
 }
@@ -299,6 +336,12 @@ footer {
         padding-right: 0px !important;
         padding-left: 0px !important;
     }
+    #landingpage {
+        .row .col-4 a, .row .col-4 button {
+            width: 100px;
+            height: 100px;
+        }
+    }
 
 }
 // Large devices (desktops, 992px and up)
@@ -306,6 +349,12 @@ footer {
     .navbar-brand{
         margin-left: 0rem;
         margin-right: 2rem;
+    }
+    #landingpage {
+        .row .col-4 a, .row .col-4 button {
+            width: 100px;
+            height: 100px;
+        }
     }
     /*if instagram embedded code came to footer , comments in here should be removed*/
     /*#map {
@@ -321,6 +370,12 @@ footer {
     .navbar-brand{
         margin-left: 0rem;
         margin-right: 2rem;
+    }
+    #landingpage {
+        .row .col-4 a, .row .col-4 button {
+            width: 100px;
+            height: 100px;
+        }
     }
     /*if instagram embedded code came to footer , comments in here should be removed*/
     /*#map {
