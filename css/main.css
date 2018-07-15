@@ -114,24 +114,22 @@ footer {
   padding: 1rem !important; }
 
 #footer-col-2 {
-  text-align: center !important;
+  text-align: right !important;
   padding: 1rem !important; }
-  #footer-col-2 iframe {
-    margin: 0 !important; }
+  #footer-col-2 .footer-col-2-child {
+    padding: 25px 5px;
+    height: 300px; }
 
 #footer-col-3 {
   text-align: right !important;
   padding: 1rem !important; }
-  #footer-col-3 h1, #footer-col-3 h2, #footer-col-3 h3, #footer-col-3 h4, #footer-col-3 h5, #footer-col-3 h6 {
-    text-align: center !important; }
-  #footer-col-3 .footer-col-3-child {
-    border: 2px solid #f4f4f4 !important;
-    padding: 50px 5px;
-    height: 400px; }
+  #footer-col-3 .footer-col-2-child {
+    padding: 25px 5px;
+    height: 300px; }
 
 #map {
   width: 100%;
-  height: 400px;
+  height: 300px;
   background-color: #93c4ff !important; }
 
 .outer-flex {
