@@ -12,7 +12,7 @@ window.onscroll = function() {
   };
   
   function scrollFunction() {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100 && document.getElementById("landingpage").style.display == "none") {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
       document.getElementById("gototopbtn").style.display = "block";
     } else {
       document.getElementById("gototopbtn").style.display = "none";

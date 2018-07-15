@@ -38,25 +38,33 @@ body {
 .bg-org {
   background-color: #93c4ff !important; }
 
-a.bg-org:focus, a.bg-org:hover, button.bg-org:focus, button.bg-org:hover {
+a.bg-org:focus,
+a.bg-org:hover,
+button.bg-org:focus,
+button.bg-org:hover {
   background-color: #93c4ff !important; }
 
 .navbar-org .navbar-brand {
   color: #424242 !important; }
 
-.navbar-org .navbar-brand:focus, .navbar-org .navbar-brand:hover {
+.navbar-org .navbar-brand:focus,
+.navbar-org .navbar-brand:hover {
   color: #424242 !important; }
 
 .navbar-org .navbar-nav .nav-link {
   color: rgba(66, 66, 66, 0.5) !important; }
 
-.navbar-org .navbar-nav .nav-link:focus, .navbar-org .navbar-nav .nav-link:hover {
+.navbar-org .navbar-nav .nav-link:focus,
+.navbar-org .navbar-nav .nav-link:hover {
   color: rgba(66, 66, 66, 0.75) !important; }
 
 .navbar-org .navbar-nav .nav-link.disabled {
   color: rgba(66, 66, 66, 0.25) !important; }
 
-.navbar-org .navbar-nav .active > .nav-link, .navbar-org .navbar-nav .nav-link.active, .navbar-org .navbar-nav .nav-link.show, .navbar-org .navbar-nav .show > .nav-link {
+.navbar-org .navbar-nav .active > .nav-link,
+.navbar-org .navbar-nav .nav-link.active,
+.navbar-org .navbar-nav .nav-link.show,
+.navbar-org .navbar-nav .show > .nav-link {
   color: #424242 !important; }
 
 .navbar-org .navbar-toggler {
@@ -72,7 +80,8 @@ a.bg-org:focus, a.bg-org:hover, button.bg-org:focus, button.bg-org:hover {
 .navbar-org .navbar-text a {
   color: #424242 !important; }
 
-.navbar-org .navbar-text a:focus, .navbar-org .navbar-text a:hover {
+.navbar-org .navbar-text a:focus,
+.navbar-org .navbar-text a:hover {
   color: #424242 !important; }
 
 .border-org {
@@ -89,19 +98,25 @@ a.bg-org:focus, a.bg-org:hover, button.bg-org:focus, button.bg-org:hover {
   background-color: #93c4ff !important;
   border-color: #93c4ff !important; }
 
-.btn-outline-org.focus, .btn-outline-org:focus {
+.btn-outline-org.focus,
+.btn-outline-org:focus {
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); }
 
-.btn-outline-org.disabled, .btn-outline-org:disabled {
+.btn-outline-org.disabled,
+.btn-outline-org:disabled {
   color: #93c4ff !important;
   background-color: transparent; }
 
-.btn-outline-org:not(:disabled):not(.disabled).active, .btn-outline-org:not(:disabled):not(.disabled):active, .show > .btn-outline-org.dropdown-toggle {
+.btn-outline-org:not(:disabled):not(.disabled).active,
+.btn-outline-org:not(:disabled):not(.disabled):active,
+.show > .btn-outline-org.dropdown-toggle {
   color: #424242 !important;
   background-color: #93c4ff !important;
   border-color: #93c4ff !important; }
 
-.btn-outline-org:not(:disabled):not(.disabled).active:focus, .btn-outline-org:not(:disabled):not(.disabled):active:focus, .show > .btn-outline-org.dropdown-toggle:focus {
+.btn-outline-org:not(:disabled):not(.disabled).active:focus,
+.btn-outline-org:not(:disabled):not(.disabled):active:focus,
+.show > .btn-outline-org.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); }
 
 footer {
@@ -188,7 +203,7 @@ footer {
   outline: none;
   color: #424242 !important;
   cursor: pointer;
-  padding: 15px;
+  padding: 10px;
   border-radius: 0px;
   background-color: rgba(255, 255, 255, 0.75); }
 
@@ -216,7 +231,8 @@ footer {
 
   #landingpage h4 {
     font-size: 1.2rem; }
-  #landingpage .row .col-4 a, #landingpage .row .col-4 button {
+  #landingpage .row .col-4 a,
+  #landingpage .row .col-4 button {
     width: 70px;
     height: 90px; }
   #landingpage .row .col-4 p {
@@ -225,7 +241,13 @@ footer {
     margin-top: 1.5rem !important;
     font-size: 15px !important; }
   #landingpage div.row {
-    margin-top: 1.5rem !important; } }
+    margin-top: 1.5rem !important; }
+  #landingpage #landingpage-child {
+    margin-top: 0 !important; }
+
+  .mainpagebutton {
+    float: right;
+    margin-right: -11px; } }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .navbar-brand {
     margin-left: 2rem;
@@ -237,7 +259,8 @@ footer {
 
   #landingpage h4 {
     font-size: 1.2rem; }
-  #landingpage .row .col-4 a, #landingpage .row .col-4 button {
+  #landingpage .row .col-4 a,
+  #landingpage .row .col-4 button {
     width: 70px;
     height: 90px; }
   #landingpage .row .col-4 p {
@@ -246,7 +269,13 @@ footer {
     margin-top: 1.5rem !important;
     font-size: 15px !important; }
   #landingpage div.row {
-    margin-top: 1.5rem !important; } }
+    margin-top: 1.5rem !important; }
+  #landingpage #landingpage-child {
+    margin-top: 0 !important; }
+
+  .mainpagebutton {
+    float: right;
+    margin-right: -11px; } }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .navbar-brand {
     margin-left: 2rem;
@@ -256,17 +285,23 @@ footer {
     padding-right: 0px !important;
     padding-left: 0px !important; }
 
-  #landingpage .row .col-4 a, #landingpage .row .col-4 button {
+  #landingpage .row .col-4 a,
+  #landingpage .row .col-4 button {
     width: 100px;
-    height: 100px; } }
+    height: 100px; }
+  #landingpage #landingpage-child {
+    margin-top: 1.5rem !important; } }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .navbar-brand {
     margin-left: 0rem;
     margin-right: 2rem; }
 
-  #landingpage .row .col-4 a, #landingpage .row .col-4 button {
+  #landingpage .row .col-4 a,
+  #landingpage .row .col-4 button {
     width: 100px;
     height: 100px; }
+  #landingpage #landingpage-child {
+    margin-top: 1.5rem !important; }
 
   /*if instagram embedded code came to footer , comments in here should be removed*/
   /*#map {
@@ -281,9 +316,12 @@ footer {
     margin-left: 0rem;
     margin-right: 2rem; }
 
-  #landingpage .row .col-4 a, #landingpage .row .col-4 button {
+  #landingpage .row .col-4 a,
+  #landingpage .row .col-4 button {
     width: 100px;
     height: 100px; }
+  #landingpage #landingpage-child {
+    margin-top: 1.5rem !important; }
 
   /*if instagram embedded code came to footer , comments in here should be removed*/
   /*#map {

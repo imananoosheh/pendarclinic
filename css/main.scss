@@ -1,13 +1,10 @@
 $font-faimly: 'Yekan';
-$org-color: rgb(147,196,255) !important;
-$font-color: rgb(66,66,66) !important;
-$font-color-25: rgba(66,66,66,.25) !important;
-$font-color-50: rgba(66,66,66,.5) !important;
-$font-color-75: rgba(66,66,66,.75) !important;
-$backgroung-color: rgb(244,244,244) !important;
-
-
-
+$org-color: rgb(147, 196, 255) !important;
+$font-color: rgb(66, 66, 66) !important;
+$font-color-25: rgba(66, 66, 66, .25) !important;
+$font-color-50: rgba(66, 66, 66, .5) !important;
+$font-color-75: rgba(66, 66, 66, .75) !important;
+$backgroung-color: rgb(244, 244, 244) !important;
 body {
     color: $font-color;
     background-color: $backgroung-color;
@@ -18,25 +15,26 @@ body {
 }
 
 .org-color {
-    color: $org-color ;
+    color: $org-color;
 }
 
 .org-background {
-    background-color: $org-color ;
+    background-color: $org-color;
 }
 
 .navbar-item-color .nav-link {
-    color: $font-color ;
-    opacity: 0.85 ;
+    color: $font-color;
+    opacity: 0.85;
 }
+
 .navbar-item-color .nav-link:hover {
-    opacity: 1 ;
+    opacity: 1;
 }
 
 .navbar-item-color .navbar-toggler {
     color: $font-color;
     border-color: rgba(66, 66, 66, 0.2);
-  }
+}
 
 .navbar-item-color .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(66, 66, 66, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
@@ -45,28 +43,31 @@ body {
 #copyright>a {
     color: #000;
     text-decoration: underline;
-  }
-  
+}
+
 #copyright {
     background-color: inherit;
     font-family: inherit;
     padding: 10px 10px;
     text-align: center;
-  }
-
-  //Bootstrap modified by API Team (IA)
+} //Bootstrap modified by API Team (IA)
 .bg-org {
     background-color: $org-color
 }
 
-a.bg-org:focus, a.bg-org:hover, button.bg-org:focus, button.bg-org:hover {
+a.bg-org:focus,
+a.bg-org:hover,
+button.bg-org:focus,
+button.bg-org:hover {
     background-color: $org-color
 }
+
 .navbar-org .navbar-brand {
     color: $font-color
 }
 
-.navbar-org .navbar-brand:focus, .navbar-org .navbar-brand:hover {
+.navbar-org .navbar-brand:focus,
+.navbar-org .navbar-brand:hover {
     color: $font-color
 }
 
@@ -74,7 +75,8 @@ a.bg-org:focus, a.bg-org:hover, button.bg-org:focus, button.bg-org:hover {
     color: $font-color-50
 }
 
-.navbar-org .navbar-nav .nav-link:focus, .navbar-org .navbar-nav .nav-link:hover {
+.navbar-org .navbar-nav .nav-link:focus,
+.navbar-org .navbar-nav .nav-link:hover {
     color: $font-color-75
 }
 
@@ -82,7 +84,10 @@ a.bg-org:focus, a.bg-org:hover, button.bg-org:focus, button.bg-org:hover {
     color: $font-color-25
 }
 
-.navbar-org .navbar-nav .active>.nav-link, .navbar-org .navbar-nav .nav-link.active, .navbar-org .navbar-nav .nav-link.show, .navbar-org .navbar-nav .show>.nav-link {
+.navbar-org .navbar-nav .active>.nav-link,
+.navbar-org .navbar-nav .nav-link.active,
+.navbar-org .navbar-nav .nav-link.show,
+.navbar-org .navbar-nav .show>.nav-link {
     color: $font-color
 }
 
@@ -103,13 +108,15 @@ a.bg-org:focus, a.bg-org:hover, button.bg-org:focus, button.bg-org:hover {
     color: $font-color
 }
 
-.navbar-org .navbar-text a:focus, .navbar-org .navbar-text a:hover {
+.navbar-org .navbar-text a:focus,
+.navbar-org .navbar-text a:hover {
     color: $font-color
-} 
+}
 
 .border-org {
     border-color: $org-color;
 }
+
 .btn-outline-org {
     color: $font-color;
     background-color: transparent;
@@ -123,58 +130,64 @@ a.bg-org:focus, a.bg-org:hover, button.bg-org:focus, button.bg-org:hover {
     border-color: $org-color
 }
 
-.btn-outline-org.focus, .btn-outline-org:focus {
+.btn-outline-org.focus,
+.btn-outline-org:focus {
     box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .5)
 }
 
-.btn-outline-org.disabled, .btn-outline-org:disabled {
+.btn-outline-org.disabled,
+.btn-outline-org:disabled {
     color: $org-color;
     background-color: transparent
 }
 
-.btn-outline-org:not(:disabled):not(.disabled).active, .btn-outline-org:not(:disabled):not(.disabled):active, .show>.btn-outline-org.dropdown-toggle {
+.btn-outline-org:not(:disabled):not(.disabled).active,
+.btn-outline-org:not(:disabled):not(.disabled):active,
+.show>.btn-outline-org.dropdown-toggle {
     color: $font-color;
     background-color: $org-color;
     border-color: $org-color
 }
 
-.btn-outline-org:not(:disabled):not(.disabled).active:focus, .btn-outline-org:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-org.dropdown-toggle:focus {
+.btn-outline-org:not(:disabled):not(.disabled).active:focus,
+.btn-outline-org:not(:disabled):not(.disabled):active:focus,
+.show>.btn-outline-org.dropdown-toggle:focus {
     box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .5)
-}//Bootstrap modified by API Team (IA) - finished here.
-
-
+} //Bootstrap modified by API Team (IA) - finished here.
 footer {
     color: $font-color;
     background-color: $org-color;
     padding: 1rem !important;
 }
+
 #footer-col-1 {
     text-align: center !important;
     padding: 1rem !important;
 }
+
 #footer-col-2 {
     text-align: right !important;
     padding: 1rem !important;
-
     .footer-col-2-child {
         padding: 25px 5px;
         height: 300px;
     }
 }
+
 #footer-col-3 {
     text-align: right !important;
     padding: 1rem !important;
-
     .footer-col-2-child {
         padding: 25px 5px;
         height: 300px;
     }
 }
+
 #map {
     width: 100%;
     height: 300px;
     background-color: $org-color;
-  }
+}
 
 .outer-flex {
     display: -webkit-box;
@@ -190,6 +203,7 @@ footer {
     justify-content: space-between;
     height: 100%;
 }
+
 .inner-flex {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -213,17 +227,18 @@ footer {
     border: 5px solid $org-color;
     background: $backgroung-color;
     z-index: 20;
-    
 }
 #footer-social-icon {
     text-align: center !important;
     i {
-    color: $font-color;
+        color: $font-color;
     }
 }
+
 #landingpage button {
     text-decoration: none !important;
 }
+
 #gototopbtn {
     display: none;
     position: fixed;
@@ -235,35 +250,34 @@ footer {
     outline: none;
     color: $font-color;
     cursor: pointer;
-    padding: 15px;
+    padding: 10px;
     border-radius: 0px;
     background-color: rgba(255, 255, 255, .75);
 }
 
 //Coded by PQ
-.addressUl{
+.addressUl {
     text-decoration: none;
     direction: rtl;
 }
-.addressUl li{
+
+.addressUl li {
     display: inline-block;
 }
 
-@font-face{
+@font-face {
     font-family: 'Yekan';
-    src: url('fonts/BYekan.eot'),
-    url('fonts/BYekan.ttf'),url('fonts/BYekan.woff');
+    src: url('fonts/BYekan.eot'), url('fonts/BYekan.ttf'), url('fonts/BYekan.woff');
 }
 
-.font-color-50{
+.font-color-50 {
     color: $font-color-50;
 }
+
 //Coded by PQ - finished
- 
-
 // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px){
-    .navbar-brand{
+@media (max-width: 575.98px) {
+    .navbar-brand {
         margin-left: 2rem;
         margin-right: 0rem;
     }
@@ -275,7 +289,8 @@ footer {
         h4 {
             font-size: 1.2rem;
         }
-        .row .col-4 a, .row .col-4 button {
+        .row .col-4 a,
+        .row .col-4 button {
             width: 70px;
             height: 90px;
         }
@@ -289,12 +304,19 @@ footer {
         div.row {
             margin-top: 1.5rem !important;
         }
+        #landingpage-child {
+            margin-top: 0 !important;
+        }
     }
-
+    .mainpagebutton {
+        float: right;
+        margin-right: -11px;
+    }
 }
+
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px){
-    .navbar-brand{
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-brand {
         margin-left: 2rem;
         margin-right: 0rem;
     }
@@ -306,7 +328,8 @@ footer {
         h4 {
             font-size: 1.2rem;
         }
-        .row .col-4 a, .row .col-4 button {
+        .row .col-4 a,
+        .row .col-4 button {
             width: 70px;
             height: 90px;
         }
@@ -320,12 +343,19 @@ footer {
         div.row {
             margin-top: 1.5rem !important;
         }
+        #landingpage-child {
+            margin-top: 0 !important;
+        }
     }
-
+    .mainpagebutton {
+        float: right;
+        margin-right: -11px;
+    }
 }
+
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px){
-    .navbar-brand{
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-brand {
         margin-left: 2rem;
         margin-right: 0rem;
     }
@@ -334,23 +364,31 @@ footer {
         padding-left: 0px !important;
     }
     #landingpage {
-        .row .col-4 a, .row .col-4 button {
+        .row .col-4 a,
+        .row .col-4 button {
             width: 100px;
             height: 100px;
         }
+        #landingpage-child {
+            margin-top: 1.5rem !important;
+        }
     }
-
 }
+
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px){
-    .navbar-brand{
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .navbar-brand {
         margin-left: 0rem;
         margin-right: 2rem;
     }
     #landingpage {
-        .row .col-4 a, .row .col-4 button {
+        .row .col-4 a,
+        .row .col-4 button {
             width: 100px;
             height: 100px;
+        }
+        #landingpage-child {
+            margin-top: 1.5rem !important;
         }
     }
     /*if instagram embedded code came to footer , comments in here should be removed*/
@@ -362,16 +400,21 @@ footer {
         top: 50px;
     }*/
 }
+
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px){
-    .navbar-brand{
+@media (min-width: 1200px) {
+    .navbar-brand {
         margin-left: 0rem;
         margin-right: 2rem;
     }
     #landingpage {
-        .row .col-4 a, .row .col-4 button {
+        .row .col-4 a,
+        .row .col-4 button {
             width: 100px;
             height: 100px;
+        }
+        #landingpage-child {
+            margin-top: 1.5rem !important;
         }
     }
     /*if instagram embedded code came to footer , comments in here should be removed*/
