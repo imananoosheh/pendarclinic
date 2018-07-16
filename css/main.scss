@@ -228,6 +228,7 @@ footer {
     background: $backgroung-color;
     z-index: 20;
 }
+
 #footer-social-icon {
     text-align: center !important;
     i {
@@ -312,6 +313,12 @@ footer {
         float: right;
         margin-right: -11px;
     }
+    #service {
+        position: absolute;
+        top: 180px;
+        text-align: right;
+        height: 30px;
+    }
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -351,6 +358,12 @@ footer {
         float: right;
         margin-right: -11px;
     }
+    #service {
+        position: absolute;
+        top: 180px;
+        text-align: right;
+        height: 30px;
+    }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -373,6 +386,12 @@ footer {
             margin-top: 1.5rem !important;
         }
     }
+    #service {
+        position: absolute;
+        bottom: 100px;
+        text-align: right;
+        height: 30px;
+    }
 }
 
 // Large devices (desktops, 992px and up)
@@ -390,6 +409,12 @@ footer {
         #landingpage-child {
             margin-top: 1.5rem !important;
         }
+    }
+    #service {
+        position: absolute;
+        bottom: 220px;
+        text-align: right;
+        height: 30px;
     }
     /*if instagram embedded code came to footer , comments in here should be removed*/
     /*#map {
@@ -416,6 +441,12 @@ footer {
         #landingpage-child {
             margin-top: 1.5rem !important;
         }
+    }
+    #service {
+        position: absolute;
+        bottom: 100px;
+        text-align: right;
+        height: 30px;
     }
     /*if instagram embedded code came to footer , comments in here should be removed*/
     /*#map {

@@ -247,7 +247,13 @@ footer {
 
   .mainpagebutton {
     float: right;
-    margin-right: -11px; } }
+    margin-right: -11px; }
+
+  #service {
+    position: absolute;
+    top: 180px;
+    text-align: right;
+    height: 30px; } }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .navbar-brand {
     margin-left: 2rem;
@@ -275,7 +281,13 @@ footer {
 
   .mainpagebutton {
     float: right;
-    margin-right: -11px; } }
+    margin-right: -11px; }
+
+  #service {
+    position: absolute;
+    top: 180px;
+    text-align: right;
+    height: 30px; } }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .navbar-brand {
     margin-left: 2rem;
@@ -290,7 +302,13 @@ footer {
     width: 100px;
     height: 100px; }
   #landingpage #landingpage-child {
-    margin-top: 1.5rem !important; } }
+    margin-top: 1.5rem !important; }
+
+  #service {
+    position: absolute;
+    bottom: 100px;
+    text-align: right;
+    height: 30px; } }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .navbar-brand {
     margin-left: 0rem;
@@ -302,6 +320,12 @@ footer {
     height: 100px; }
   #landingpage #landingpage-child {
     margin-top: 1.5rem !important; }
+
+  #service {
+    position: absolute;
+    bottom: 220px;
+    text-align: right;
+    height: 30px; }
 
   /*if instagram embedded code came to footer , comments in here should be removed*/
   /*#map {
@@ -322,6 +346,12 @@ footer {
     height: 100px; }
   #landingpage #landingpage-child {
     margin-top: 1.5rem !important; }
+
+  #service {
+    position: absolute;
+    bottom: 100px;
+    text-align: right;
+    height: 30px; }
 
   /*if instagram embedded code came to footer , comments in here should be removed*/
   /*#map {
