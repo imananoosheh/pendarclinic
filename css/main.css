@@ -25,15 +25,21 @@ body {
 .navbar-item-color .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(66, 66, 66, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
 
-#copyright > a {
-  color: #000;
-  text-decoration: underline; }
-
 #copyright {
   background-color: inherit;
   font-family: inherit;
   padding: 10px 10px;
   text-align: center; }
+  #copyright button {
+    font-size: inherit;
+    font-weight: lighter;
+    border-radius: 0px !important; }
+  #copyright a {
+    color: #424242 !important;
+    text-decoration: none;
+    font-weight: lighter; }
+  #copyright .row {
+    margin: auto 0px !important; }
 
 .bg-org {
   background-color: #93c4ff !important; }
