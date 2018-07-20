@@ -5,10 +5,10 @@ function xYZ() {
     '<div class="navbar-nav mx-auto my-auto">'+
     '<div class="row">'+
     '<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 my-4">'+
-    '<a class="border border-org px-1 py-1 mx-1" href="#">Ashkan Taravati</a>'+
+    '<a class="border border-org px-1 py-1 mx-1" href="http://ashkantaravati.ir/">Ashkan Taravati</a>'+
     '</div>'+
     '<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 my-4">'+
-    '<a class="border border-org px-1 py-1 mx-1" href="#">Parisa Qomi</a>'+
+    '<a class="border border-org px-1 py-1 mx-1" href="http://parisaqomi.ir/">Parisa Qomi</a>'+
     '</div>'+
     '<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 my-4">'+
     '<a class="border border-org px-1 py-1 mx-1" href="https://www.linkedin.com/in/imananoosheh">Iman Anooshehpour</a>'+
