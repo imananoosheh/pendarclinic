@@ -236,6 +236,12 @@ footer {
     background: $backgroung-color;
     z-index: 20;
 }
+#indexbody {
+    background-image: url('../img/rcv/23.jpeg');
+    background-repeat: round;
+    background-attachment: fixed;
+    background-position: center; 
+}
 
 #footer-social-icon {
     text-align: center !important;
