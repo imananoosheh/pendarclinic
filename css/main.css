@@ -192,7 +192,7 @@ footer {
 
 #indexbody {
   background-image: url("../img/rcv/23.jpeg");
-  background-repeat: round;
+  background-repeat: repeat-x;
   background-attachment: fixed;
   background-position: center; }
 
