@@ -81,14 +81,14 @@
                   var content = this.nextElementSibling;
                   if (content.style.display === "block") {
                     content.style.display = "none";
-                    document.getElementsByClassName("collapsible").innerHTML='کمتر...';
+                    document.getElementsByClassName("collapsible").style.display="none";
                   } else {
                     content.style.display = "block";
                   }
                 });
               }
             </script>
-            <!--read more-->
+            <!--/read more-->
           </div>
         </div>
       </div>
@@ -104,7 +104,8 @@
             <img class="card-img-top img-fluid" src="img/personnel/Dr.Jalali.jpeg" alt="Card image cap" style=" height: 300px;">
             <div class="card-body">
               <h5 class="card-title d-inline-block mb-2 org-color"> دکتر مریم جلالی کشاورز</h5>
-              <p class="card-text">Icing powder caramels macaroon. Toffee sugar plum brownie pastry gummies jelly.</p>
+              <p class="card-text">روانشناس کودک و نوجوان
+              </p>
               <a href="resume/Dr_Jalali_resume.pdf" class="btn btn-outline-amber org-color border border-org" download="Dr.Jalali_resume">
                 <i class="gb gb_file_download "></i> مشاهده رزومه</a>
             </div>
@@ -117,7 +118,7 @@
             <img class="card-img-top img-fluid" src="img/personnel/Dr.Mazadeh.jpeg" alt="Card image cap" style=" height: 300px;">
             <div class="card-body">
               <h5 class="card-title d-inline-block mb-2 org-color"> دکتر حامد ماه‌زاده</h5>
-              <p class="card-text">Icing powder caramels macaroon. Toffee sugar plum brownie pastry gummies jelly.</p>
+              <p class="card-text"> روانشناس </p>
               <a href="resume/Dr_Mahzadeh_resume.pdf" class="btn btn-outline-amber org-color border border-org" download="Dr.Mahzade_resume">
                 <i class="gb gb_file_download"></i> مشاهده رزومه</a>
             </div>
@@ -130,7 +131,7 @@
             <img class="card-img-top img-fluid" src="img/personnel/Dr. Firoozi.jpeg" alt="Card image cap" style=" height: 300px;">
             <div class="card-body">
               <h5 class="card-title d-inline-block mb-2 org-color"> دکتر ستاره فیروزی</h5>
-              <p class="card-text">Icing powder caramels macaroon. Toffee sugar plum brownie pastry gummies jelly.</p>
+              <p class="card-text">رواشناس</p>
               <a href="resume//Dr_Firuzi_resume.pdf" class="btn btn-outline-amber org-color border border-org" download="Dr.Firoozi_resume">
                 <i class="gb gb_file_download"></i> مشاهده رزومه</a>
             </div>
@@ -145,7 +146,7 @@
             <img class="card-img-top img-fluid" src="img/personnel/Dr. Mirakhorli.jpeg" alt="Card image cap" style=" height: 300px;">
             <div class="card-body">
               <h5 class="card-title d-inline-block mb-2 org-color"> دکتر الهه میراخورلی</h5>
-              <p class="card-text">Icing powder caramels macaroon. Toffee sugar plum brownie pastry gummies jelly.</p>
+              <p class="card-text">روانشناس تربیتی</p>
               <a href="resume/Dr.Miakhorli_resume.pdf" class="btn btn-outline-amber org-color border border-org" download="Dr.Miakhorli_resume">
                 <i class="gb gb_file_download"></i> مشاهده رزومه</a>
             </div>
@@ -158,7 +159,7 @@
             <img class="card-img-top img-fluid" src="img/personnel/Dr.jamali.jpeg" alt="Card image cap" style=" height: 300px;">
             <div class="card-body">
               <h5 class="card-title d-inline-block mb-2 org-color"> دکتر مرجان جمالی</h5>
-              <p class="card-text">Icing powder caramels macaroon. Toffee sugar plum brownie pastry gummies jelly.</p>
+              <p class="card-text">مشاور و روان‌درمانگر</p>
               <a href="resume/Dr_Jamali_resume.pdf" class="btn btn-outline-amber org-color border border-org" download="Dr.Jamali_resume">
                 <i class="gb gb_file_download"></i> مشاهده رزومه</a>
             </div>
@@ -181,25 +182,25 @@
     </div>
     <!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
     <div class="row mb-2 mt-3   ">
-      <div class="col-md-6 farsi-alignment" style="text-align: right !important;">
-        <div class="d-inline-block mb-2 org-color farsi-alignment" style="text-align: right;">
+      <div class="col-md-6 farsi-alignment text-right" >
+        <div class="d-inline-block mb-2 org-color">
           <h4>پیام به ما </h4>
         </div>
         <form action="https://formspree.io/clinicpendarpsy@gmail.com" method="POST">
-          <div class="form-group" style="text-align: right;">
+          <div class="form-group">
             <label> نام و نام خانوادگی</label>
             <input type="text" class="form-control" placeholder=" نام و نام خانوادگی">
           </div>
-          <div class="form-group" style="text-align: right;">
+          <div class="form-group" >
             <label> موضوع</label>
             <input type="text" class="form-control" placeholder=" موضوع">
           </div>
-          <div class="form-group" style="text-align: right;">
+          <div class="form-group" >
             <label> پست الکترونیک</label>
             <input type="email" class="form-control" placeholder=" پست الکترونیک">
             <small id="emailHelp" class="form-text text-muted">ما ایمیل شما را به اشتراک نمیگذاریم.</small>
           </div>
-          <div class="form-group" style="text-align: right;">
+          <div class="form-group" >
             <label>توضیحات</label>
             <input type="text" class="form-control" placeholder="توضیحات">
           </div>
@@ -233,7 +234,7 @@
   </div>
   <!--Footer-->
   <footer>
-    <div class="container-fluid row text-right" style="margin-right: auto !important; margin-left: auto !important">
+    <div class="container-fluid row" style="margin-right: auto !important; margin-left: auto !important">
       <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12" id="footer-col-1">
         <div id="map"></div>
         <script>
@@ -261,7 +262,7 @@
       </div>
       <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12" id="footer-col-2">
         <div class="footer-col-2-child">
-          <div id="footer-address" class="row my-1">
+          <div id="footer-address" class="row">
             <div class="col-10 farsi-alignment">
               <h5>آدرس:</h5>
               <p> میدان ونک، خیابان گاندی جنوبی، کوچه بیست و سوم، پلاک۲۱، طبقه۴، واحد ۱۶</p>
@@ -270,8 +271,8 @@
               <i class="gb gb_place gb_s24"></i>
             </div>
           </div>
-          <div id="footer-telephone" class="row ">
-            <div class="col-10 farsi-alignment" style="text-align: right;">
+          <div id="footer-telephone" class="row">
+            <div class="col-10 farsi-alignment">
               <h5>تلفن:</h5>
               <p>
                 <a class="btn btn-outline-info" href="tel: 021-8866-2168" style="color:#424242"> ۸۸۶۶۲۱۶۸ ۰۲۱</a>
@@ -310,8 +311,8 @@
                 <i class="gb gb_telegram gb_s36"></i>
               </a>
             </div>
-            <div class="col-3">
-              <a href="" target="blank">
+            <div class="col-3" target="blank">
+              <a href="">
                 <img src="img/Evand_logo_Trans-fontcolor.png" alt="evand logo" width="35px" style="padding-top:2px;">
               </a>
             </div>
@@ -320,7 +321,7 @@
       </div>
     </div>
   </footer>
-  <div id="copyright"></div>
+  <div id="copyright"  class="my-2"></div>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
