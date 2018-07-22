@@ -48,8 +48,8 @@
     <div class="row mb-2 mt-3">
       <div class="col-md-12">
         <div class="card flex-md-row mb-4 box-shadow h-md-250 farsi-alignment">
-          <img class="card-img-right flex-auto d-md-block  " data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="img/rcv/2.jpeg"
-            data-holder-rendered="true" style="width: 400px; height:450px; max-width:100%;">
+          <img class="card-img-right flex-auto d-md-block  my-2" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="img/rcv/2.jpeg"
+            data-holder-rendered="true" style="width: 400px; height:300px; max-width:100%;">
           <div class="card-body d-flex flex-column align-items-start">
             <h4>
               <strong class="d-inline-block mb-2 text-primary org-color ">کلینیک پندار</strong>
@@ -57,16 +57,38 @@
             <p class="card-text mb-auto font-color-25 farsi-alignmetn text-right" id="about-pendar-text">مرکز مشاوره و خدمات روانشناسی پندار در سال ۱۳۹۲ تاسیس و فعالیت خود را آغاز نموده است. در طی این سال ها پندار
               به دنبال ارتقای و بهبود سلامت روان در عرصه فردی و خانواده بوده است و اقدامات متعددی در خصوص درمان فردی، گروهی،
               سنجش روانی ، تدوین برنامه های درمانی و آموزش های تخصصی و عمومی داشته است.
-              </br>
-              هم اینک مرکز مشاوره و خدمات روانشناختی پندار با در اختیار داشتن نیروی خبره و متخصص در فضایی مناسب، آماده ارائه خدمات روانشناختی
-              در زمینه های سنجش و اندازه گیری روانی و روان سنجی، رواندرمانی و درمان های گروهی، درمان های فردی، آموزش والدین
-              و ارتقا توانمندی های شناختی و همچنین کلیه خدمات تشخیصی و درمانی کودک و نوجوان می باشد.
-
-              </br>
-              کادر تخصصی پندار عبارت است از: روانکاو، درمانگر شناختی-رفتاری، مشاور، روانشناس کودک و نوجوان، متخصص مشاوره قبل از ازدواج،
-              خانواده درمانگر، روانسنج و مدرسین دانشگاه
             </p>
+            <!--read more-->
+            <span class="collapsible org-color" style="cursor: pointer;"> بیشتر... </span>
+            <div class="content farsi-alignment text-right">
+              <p>
+                  هم اینک مرکز مشاوره و خدمات روانشناختی پندار با در اختیار داشتن نیروی خبره و متخصص در فضایی مناسب، آماده ارائه خدمات روانشناختی
+                  در زمینه های سنجش و اندازه گیری روانی و روان سنجی، رواندرمانی و درمان های گروهی، درمان های فردی، آموزش والدین
+                  و ارتقا توانمندی های شناختی و همچنین کلیه خدمات تشخیصی و درمانی کودک و نوجوان می باشد.
+                  </br>
+                  کادر تخصصی پندار عبارت است از: روانکاو، درمانگر شناختی-رفتاری، مشاور، روانشناس کودک و نوجوان، متخصص مشاوره قبل از ازدواج،
+                  خانواده درمانگر، روانسنج و مدرسین دانشگاه
+              </p>
+            </div>
 
+            <script>
+              var coll = document.getElementsByClassName("collapsible");
+              var i;
+
+              for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function () {
+                  this.classList.toggle("active");
+                  var content = this.nextElementSibling;
+                  if (content.style.display === "block") {
+                    content.style.display = "none";
+                    document.getElementsByClassName("collapsible").innerHTML='کمتر...';
+                  } else {
+                    content.style.display = "block";
+                  }
+                });
+              }
+            </script>
+            <!--read more-->
           </div>
         </div>
       </div>
@@ -83,8 +105,8 @@
             <div class="card-body">
               <h5 class="card-title d-inline-block mb-2 org-color"> دکتر مریم جلالی کشاورز</h5>
               <p class="card-text">Icing powder caramels macaroon. Toffee sugar plum brownie pastry gummies jelly.</p>
-              <a href="resume/Dr.jalali_resume.pdf" class="btn btn-outline-amber org-color" download="Dr.Jalali_resume">
-                <i class="gb gb_download"></i> مطالعه رزومه</a>
+              <a href="resume/Dr_Jalali_resume.pdf" class="btn btn-outline-amber org-color border border-org" download="Dr.Jalali_resume">
+                <i class="gb gb_file_download "></i> مشاهده رزومه</a>
             </div>
           </div>
         </div>
@@ -96,8 +118,8 @@
             <div class="card-body">
               <h5 class="card-title d-inline-block mb-2 org-color"> دکتر حامد ماه‌زاده</h5>
               <p class="card-text">Icing powder caramels macaroon. Toffee sugar plum brownie pastry gummies jelly.</p>
-              <a href="resume/Dr.Miakhorli_resume.pdf" class="btn btn-outline-amber org-color" download="Dr.Mahzade_resume">
-                <i class="gb gb_download"></i> مطالعه رزومه</a>
+              <a href="resume/Dr_Mahzadeh_resume.pdf" class="btn btn-outline-amber org-color border border-org" download="Dr.Mahzade_resume">
+                <i class="gb gb_file_download"></i> مشاهده رزومه</a>
             </div>
           </div>
         </div>
@@ -109,8 +131,8 @@
             <div class="card-body">
               <h5 class="card-title d-inline-block mb-2 org-color"> دکتر ستاره فیروزی</h5>
               <p class="card-text">Icing powder caramels macaroon. Toffee sugar plum brownie pastry gummies jelly.</p>
-              <a href="resume/Dr.Firoozi_resume.pdf" class="btn btn-outline-amber org-color" download="Dr.Firoozi_resume">
-                <i class="gb gb_download"></i> مطالعه رزومه</a>
+              <a href="resume//Dr_Firuzi_resume.pdf" class="btn btn-outline-amber org-color border border-org" download="Dr.Firoozi_resume">
+                <i class="gb gb_file_download"></i> مشاهده رزومه</a>
             </div>
           </div>
         </div>
@@ -124,8 +146,8 @@
             <div class="card-body">
               <h5 class="card-title d-inline-block mb-2 org-color"> دکتر الهه میراخورلی</h5>
               <p class="card-text">Icing powder caramels macaroon. Toffee sugar plum brownie pastry gummies jelly.</p>
-              <a href="resume/Dr.Miakhorli_resume.pdf" class="btn btn-outline-amber org-color" download="Dr.Miakhorli_resume">
-                <i class="gb gb_download"></i> مطالعه رزومه</a>
+              <a href="resume/Dr.Miakhorli_resume.pdf" class="btn btn-outline-amber org-color border border-org" download="Dr.Miakhorli_resume">
+                <i class="gb gb_file_download"></i> مشاهده رزومه</a>
             </div>
           </div>
         </div>
@@ -137,21 +159,21 @@
             <div class="card-body">
               <h5 class="card-title d-inline-block mb-2 org-color"> دکتر مرجان جمالی</h5>
               <p class="card-text">Icing powder caramels macaroon. Toffee sugar plum brownie pastry gummies jelly.</p>
-              <a href="resume/Dr.Jamali_resume.pdf" class="btn btn-outline-amber org-color" download="Dr.Jamali_resume">
-                <i class="gb gb_download"></i> مطالعه رزومه</a>
+              <a href="resume/Dr_Jamali_resume.pdf" class="btn btn-outline-amber org-color border border-org" download="Dr.Jamali_resume">
+                <i class="gb gb_file_download"></i> مشاهده رزومه</a>
             </div>
           </div>
         </div>
       </div>
-    <!--  <div class="col-xl-4 col-md-6 col-sm-12 ">
+      <!--  <div class="col-xl-4 col-md-6 col-sm-12 ">
         <div class="card">
           <div class="card-body">
             <img class="card-img-top img-fluid" src="img/personnel/Dr. Firoozi.jpeg" alt="Card image cap" style=" height: 300px;">
             <div class="card-body">
               <h5 class="card-title d-inline-block mb-2 org-color"> دکتر سمیه یوسفی</h5>
               <p class="card-text">Icing powder caramels macaroon. Toffee sugar plum brownie pastry gummies jelly.</p>
-              <a href="#" class="btn btn-outline-amber org-color">
-                <i class="gb gb_download"></i> مطالعه رزومه</a>
+              <a href="#" class="btn btn-outline-amber org-color border border-org">
+                <i class="gb gb_file_download"></i> مشاهده رزومه</a>
             </div>
           </div>
         </div>
@@ -163,7 +185,7 @@
         <div class="d-inline-block mb-2 org-color farsi-alignment" style="text-align: right;">
           <h4>پیام به ما </h4>
         </div>
-        <form>
+        <form action="https://formspree.io/clinicpendarpsy@gmail.com" method="POST">
           <div class="form-group" style="text-align: right;">
             <label> نام و نام خانوادگی</label>
             <input type="text" class="form-control" placeholder=" نام و نام خانوادگی">
@@ -202,8 +224,8 @@
             <p>
               <a class="btn btn-outline-info" href="tel: 021-8867-0282" style="color:#424242"> ۸۸۶۷۰۲۸۲ ۰۲۱</a>
             </p>
-            <h5 class="d-inline-block mb-2 text-primary org-color">ایمیل</h5>
-            <p class="card-text mb-auto">info@info.com </p>
+            <h5 class="d-inline-block mb-2 text-primary org-color">پست الکترونیک</h5>
+            <p class="card-text mb-auto">clinicpendarpsy@gmail.com </p>
           </div>
         </div>
       </div>
@@ -307,9 +329,9 @@
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-  <!--<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/popper.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>-->
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/mainCR.js"></script>
 </body>
 
