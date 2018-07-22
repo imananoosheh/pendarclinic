@@ -227,8 +227,8 @@ footer {
   display: inline-block; }
 
 @font-face {
-  font-family: Yekan !important;
-  src: url("../fonts/BYekan.eot"), url("../fonts/BYekan.ttf"), url("../fonts/BYekan.woff"); }
+  font-family: Yekan;
+  src: url(../fonts/BYekan.eot), url(../fonts/BYekan.ttf), url(../fonts/BYekan.woff); }
 .font-color-50 {
   color: rgba(66, 66, 66, 0.5) !important; }
 
