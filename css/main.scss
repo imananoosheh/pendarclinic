@@ -1,5 +1,5 @@
 $font-family: 'Yekan';
-$org-color: rgb(147, 196, 255) !important;
+$org-color: #009ce2 !important;
 $font-color: rgb(66, 66, 66) !important;
 $font-color-25: rgba(66, 66, 66, .25) !important;
 $font-color-50: rgba(66, 66, 66, .5) !important;
@@ -8,6 +8,8 @@ $backgroung-color: rgb(244, 244, 244) !important;
 body {
     color: $font-color;
     background-color: $backgroung-color;
+    background-image: url(../img/bg-1.jpg);
+    background-repeat: inherit;
 }
 
 .farsi-alignment {

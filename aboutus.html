@@ -13,6 +13,7 @@
   <link href="css/gorbeh/css/gorbeh-icons.css" rel="stylesheet">
 
   <link href="css/main.scss">
+  
 
   <title>کلینیک پندار | Pendar Clinic</title>
 </head>
@@ -24,7 +25,7 @@
   </button>
   <nav class="farsi-alignment sticky-top navbar navbar-expand-lg navbar-org bg-org">
     <img src="img/logo-test.png" alt=" pendar logo" style="float:left !important; z-index: 10;">
-    <a class="navbar-brand" href="#">کلینیک پندار</a>
+    <a class="navbar-brand d-xl-none d-lg-none" href="#" >کلینیک پندار</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05"
       aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -33,12 +34,12 @@
     <div class="farsi-alignment collapse navbar-collapse" id="navbarsExample05">
       <ul class="navbar-nav" style="margin-left: auto !important; float: right !important;">
         <li class="nav-item ">
-          <a class="nav-link" href="main.html">صفحه اصلی
+          <a class="nav-link" href="main.html"><i class="gb gb_home gb_s24"></i> صفحه اصلی
             <span class="sr-only">(current)</span>
           </a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#">درباره پندار</a>
+          <a class="nav-link" href="#"><i class="gb gb_chat gb_s24"></i> درباره پندار</a>
         </li>
       </ul>
     </div>
@@ -81,7 +82,7 @@
                   var content = this.nextElementSibling;
                   if (content.style.display === "block") {
                     content.style.display = "none";
-                    document.getElementsByClassName("collapsible").style.display="none";
+                    $("collapsible").style.display="none";
                   } else {
                     content.style.display = "block";
                   }
