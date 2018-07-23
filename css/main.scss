@@ -294,6 +294,9 @@ font-family: Yekan;
 .font-color-50 {
     color: $font-color-50;
 }
+.font-color-75 {
+    color: $font-color-75;
+}
 #about-pendar-text{
     font-size: 1.2rem;
 }
@@ -304,7 +307,7 @@ font-family: Yekan;
     overflow: hidden;
   }
 .pendar-heading__link{
-    background: url(../img/logo-test.png) no-repeat;
+    background: url(../img/pendar-logo.png) no-repeat;
     background-size: cover;
     color: transparent;
     display: block;

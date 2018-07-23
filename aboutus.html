@@ -23,8 +23,8 @@
   <button onclick="topFunction()" id="gototopbtn" title="Go to top">
     <i class="gb gb_keyboard_arrow_up"></i>
   </button>
-  <nav class="farsi-alignment sticky-top navbar navbar-expand-lg navbar-org bg-org">
-    <img src="img/logo-test.png" alt=" pendar logo" style="float:left !important; z-index: 10;">
+  <nav id="navbar" class="farsi-alignment sticky-top navbar navbar-expand-lg navbar-org bg-org">
+    <img class="d-xl-none d-lg-none"src="img/logo-test.png" alt=" pendar logo" style="float:left !important; z-index: 10;">
     <a class="navbar-brand d-xl-none d-lg-none" href="#">کلینیک پندار</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05"
       aria-expanded="false" aria-label="Toggle navigation">
@@ -33,33 +33,46 @@
 
     <div class="farsi-alignment collapse navbar-collapse text-right" id="navbarsExample05">
       <ul class="navbar-nav" style="margin-left: auto !important; float: right !important;">
-        <li class="nav-item active ml-4">
+        <li class="nav-item active">
           <a class="nav-link" href="main.html">
             <i class="gb gb_home gb_s24 ml-1"></i> صفحه اصلی
             <span class="sr-only">(current)</span>
           </a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#service">
+          <a class="nav-link" href="main.html#service">
             <i class="gb gb_people gb_s24 ml-1"></i> خدمات </a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="aboutus.html">
+          <a class="nav-link" href="main.html#follow">
+            <i class="gb gb_announcement gb_s24 ml-1"></i> اطلاعیه‌ها </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#about-pendar">
             <i class="gb gb_chat gb_s24 ml-1"></i> درباره پندار</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="aboutus.html">
+          <a class="nav-link" href="#pesonnel">
             <i class="gb gb_people_outline gb_s24 ml-1"></i> همکاران</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="aboutus.html">
+          <a class="nav-link" href="#contact">
             <i class="gb gb_contact_phone gb_s24 ml-1"></i> ارتباط با ما </a>
         </li>
+
       </ul>
     </div>
+    
+      <h1 class="pendar-heading d-none d-lg-block d-xl-block ">
+          <a href="/" class="pendar-heading__link">
+            <span class="is-visually-hidden">
+            pendar University
+            </span>
+            </a>
+      </h1>
   </nav>
   <!--Main Body-->
-  <div class="container border border-org mb-3 mt-3">
+  <div class="container border border-org mb-3 mt-3" id="about-pendar">
     <div class="row mb-2 mt-3">
       <div class="col-md-12">
         <div class="card flex-md-row mb-4 box-shadow h-md-250 farsi-alignment">
@@ -121,7 +134,7 @@
               <h5 class="card-title d-inline-block mb-2 org-color"> دکتر مریم جلالی کشاورز</h5>
               <p class="card-text">روانشناس کودک و نوجوان
               </p>
-              <a href="resume/Dr_Jalali_resume.pdf" class="btn btn-outline-amber org-color border border-org" download="Dr.Jalali_resume">
+              <a href="resume/resume-jalali-pendar.pdf" class="btn btn-outline-amber org-color border border-org" download="Dr_Jalali_resume">
                 <i class="gb gb_file_download "></i> مشاهده رزومه</a>
             </div>
           </div>
@@ -134,7 +147,7 @@
             <div class="card-body">
               <h5 class="card-title d-inline-block mb-2 org-color"> دکتر حامد ماه‌زاده</h5>
               <p class="card-text"> روانشناس </p>
-              <a href="resume/Dr_Mahzadeh_resume.pdf" class="btn btn-outline-amber org-color border border-org" download="Dr.Mahzade_resume">
+              <a href="resume/resume-mahzade-pendar.pdf" class="btn btn-outline-amber org-color border border-org" download="Dr_Mahzade_resume">
                 <i class="gb gb_file_download"></i> مشاهده رزومه</a>
             </div>
           </div>
@@ -147,7 +160,7 @@
             <div class="card-body">
               <h5 class="card-title d-inline-block mb-2 org-color"> دکتر ستاره فیروزی</h5>
               <p class="card-text">رواشناس</p>
-              <a href="resume//Dr_Firuzi_resume.pdf" class="btn btn-outline-amber org-color border border-org" download="Dr.Firoozi_resume">
+              <a href="resume/resume-firoozi-pendar.pdf" class="btn btn-outline-amber org-color border border-org" download="Dr_Firoozi_resume">
                 <i class="gb gb_file_download"></i> مشاهده رزومه</a>
             </div>
           </div>
@@ -160,7 +173,7 @@
             <div class="card-body">
               <h5 class="card-title d-inline-block mb-2 org-color"> دکتر الهه میراخورلی</h5>
               <p class="card-text">روانشناس تربیتی</p>
-              <a href="resume/Dr.Miakhorli_resume.pdf" class="btn btn-outline-amber org-color border border-org" download="Dr.Miakhorli_resume">
+              <a href="resume/resume-mirakhorli-pendar.pdf" class="btn btn-outline-amber org-color border border-org" download="Dr_Mirakhorli_resume">
                 <i class="gb gb_file_download"></i> مشاهده رزومه</a>
             </div>
           </div>
@@ -173,7 +186,7 @@
             <div class="card-body">
               <h5 class="card-title d-inline-block mb-2 org-color"> دکتر مرجان جمالی</h5>
               <p class="card-text">مشاور و روان‌درمانگر</p>
-              <a href="resume/Dr_Jamali_resume.pdf" class="btn btn-outline-amber org-color border border-org" download="Dr.Jamali_resume">
+              <a href="resume/resume-jamali-pendar.pdf" class="btn btn-outline-amber org-color border border-org" download="Dr_Jamali_resume">
                 <i class="gb gb_file_download"></i> مشاهده رزومه</a>
             </div>
           </div>
@@ -186,7 +199,7 @@
             <div class="card-body">
               <h5 class="card-title d-inline-block mb-2 org-color"> دکتر گلناز یوسفی</h5>
               <p class="card-text">مشاور</p>
-              <a href="resume/Dr_Usefi_resume.pdf" class="btn btn-outline-amber org-color border border-org" download="Dr.Usefi_resume">
+              <a href="resume/resume-usefi-pendar.pdf" class="btn btn-outline-amber org-color border border-org" download="Dr_Usefi_resume">
                 <i class="gb gb_file_download"></i> مشاهده رزومه</a>
             </div>
           </div>
@@ -240,7 +253,7 @@
               <a class="btn btn-outline-info" href="tel: 021-8867-0282" style="color:#424242"> ۸۸۶۷۰۲۸۲ ۰۲۱</a>
             </p>
             <h5 class="d-inline-block mb-2 text-primary org-color">پست الکترونیک</h5>
-            <p class="card-text mb-auto">clinicpendarpsy@gmail.com </p>
+            <a class="card-text mb-auto btn btn-outline-info " href="mailto:clinicpendarpsy@gmail.com" style="color:#424242">clinicpendarpsy@gmail.com </a>
           </div>
         </div>
       </div>
