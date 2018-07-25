@@ -364,6 +364,10 @@ width: 1px !important;
         object-fit: cover;
     }
 }
+.landing-page-logo{
+    height: 200px;
+    width: 200px;
+}
 //Coded by PQ - finished
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
@@ -394,7 +398,7 @@ width: 1px !important;
         div.row {
             margin-top: 1.5rem !important;
         }
-        #landingpage-child {
+        .landingpage-child {
             margin-top: 0 !important;
         }
     }
@@ -407,6 +411,12 @@ width: 1px !important;
         top: 180px;
         text-align: right;
         height: 30px;
+    }
+
+    .landing-page-logo{
+        height: 90px;
+        width: 90px;
+        margin-top: 1rem;
     }
 }
 
@@ -453,6 +463,11 @@ width: 1px !important;
         text-align: right;
         height: 30px;
     }
+    .landing-page-logo{
+        height: 90px;
+        width: 90px;
+        margin-top: 1rem;
+    }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -480,6 +495,11 @@ width: 1px !important;
         bottom: 100px;
         text-align: right;
         height: 30px;
+    }
+    .landing-page-logo{
+        height: 90px;
+        width: 90px;
+        margin-top: 1rem;
     }
 }
 

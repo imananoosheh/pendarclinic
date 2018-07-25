@@ -303,6 +303,10 @@ footer {
 #consultation img {
   object-fit: cover; }
 
+.landing-page-logo {
+  height: 200px;
+  width: 200px; }
+
 @media (max-width: 575.98px) {
   .navbar-brand {
     margin-left: 2rem;
@@ -325,7 +329,7 @@ footer {
     font-size: 15px !important; }
   #landingpage div.row {
     margin-top: 1.5rem !important; }
-  #landingpage #landingpage-child {
+  #landingpage .landingpage-child {
     margin-top: 0 !important; }
 
   .mainpagebutton {
@@ -336,7 +340,12 @@ footer {
     position: absolute;
     top: 180px;
     text-align: right;
-    height: 30px; } }
+    height: 30px; }
+
+  .landing-page-logo {
+    height: 90px;
+    width: 90px;
+    margin-top: 1rem; } }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .navbar-brand {
     margin-left: 2rem;
@@ -370,7 +379,12 @@ footer {
     position: absolute;
     top: 180px;
     text-align: right;
-    height: 30px; } }
+    height: 30px; }
+
+  .landing-page-logo {
+    height: 90px;
+    width: 90px;
+    margin-top: 1rem; } }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .navbar-brand {
     margin-left: 2rem;
@@ -391,7 +405,12 @@ footer {
     position: absolute;
     bottom: 100px;
     text-align: right;
-    height: 30px; } }
+    height: 30px; }
+
+  .landing-page-logo {
+    height: 90px;
+    width: 90px;
+    margin-top: 1rem; } }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .navbar-brand {
     margin-left: 0rem;
