@@ -300,6 +300,9 @@ footer {
   text-align: right;
   height: 30px; }
 
+#consultation img {
+  object-fit: cover; }
+
 @media (max-width: 575.98px) {
   .navbar-brand {
     margin-left: 2rem;

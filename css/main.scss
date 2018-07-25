@@ -359,6 +359,11 @@ width: 1px !important;
     text-align: right;
     height: 30px;
 }
+#consultation{
+    img{
+        object-fit: cover;
+    }
+}
 //Coded by PQ - finished
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
