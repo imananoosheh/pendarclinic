@@ -303,7 +303,7 @@ footer {
 #consultation img {
   object-fit: cover; }
 
-.landing-page-logo {
+#landing-page-logo {
   height: 200px;
   width: 200px; }
 
@@ -342,7 +342,7 @@ footer {
     text-align: right;
     height: 30px; }
 
-  .landing-page-logo {
+  #landing-page-logo {
     height: 90px;
     width: 90px;
     margin-top: 1rem; } }
@@ -381,7 +381,7 @@ footer {
     text-align: right;
     height: 30px; }
 
-  .landing-page-logo {
+  #landing-page-logo {
     height: 90px;
     width: 90px;
     margin-top: 1rem; } }
@@ -407,7 +407,7 @@ footer {
     text-align: right;
     height: 30px; }
 
-  .landing-page-logo {
+  #landing-page-logo {
     height: 90px;
     width: 90px;
     margin-top: 1rem; } }
