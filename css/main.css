@@ -29,9 +29,10 @@ body {
 
 #copyright {
   background-color: inherit;
-  font-family: inherit;
   padding: 10px 10px;
   text-align: center; }
+  #copyright button, #copyright span, #copyright a, #copyright p {
+    font-family: 'Julius Sans One', sans-serif !important; }
   #copyright button {
     font-size: inherit;
     font-weight: lighter;
