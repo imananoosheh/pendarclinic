@@ -87,9 +87,8 @@
               سنجش روانی ، تدوین برنامه های درمانی و آموزش های تخصصی و عمومی داشته است.
             </p>
             <!--read more-->
-            <span class="collapsible org-color" style="cursor: pointer;"> بیشتر... </span>
-            <div class="content farsi-alignment text-right">
-              <p>
+            <div id="aboutextra" class="content farsi-alignment text-right">
+              <p><br>
                 هم اینک مرکز مشاوره و خدمات روانشناختی پندار با در اختیار داشتن نیروی خبره و متخصص در فضایی مناسب، آماده ارائه خدمات روانشناختی
                 در زمینه های سنجش و اندازه گیری روانی و روان سنجی، رواندرمانی و درمان های گروهی، درمان های فردی، آموزش والدین
                 و ارتقا توانمندی های شناختی و همچنین کلیه خدمات تشخیصی و درمانی کودک و نوجوان می باشد.
@@ -98,9 +97,26 @@
                 خانواده درمانگر، روانسنج و مدرسین دانشگاه
               </p>
             </div>
-
+            <button id="aboutswitcher" onclick="moreButton2()" type="button" data-target="#aboutextra">
+              <span>بیشتر...</span>
+            </button>
             <script>
-              var coll = document.getElementsByClassName("collapsible");
+              /*
+              $("#aboutswitcher").click(function(){
+                alert('registering...');
+                $('#aboutextra').toggle(function () {
+                  $("#aboutextra").addClass("d-block");
+                alert('setting class...');
+              }, function () {
+                  $("#aboutextra").removeClass("d-block");
+                alert('removing class...');
+            
+              });
+            });
+            */
+            </script>
+            <!--<script>
+              var coll = document.getElementsByClassName("collapsable");
               var i;
 
               for (i = 0; i < coll.length; i++) {
@@ -109,13 +125,13 @@
                   var content = this.nextElementSibling;
                   if (content.style.display === "block") {
                     content.style.display = "none";
-                    $("collapsible").style.display = "none";
+                    $("collapsable").style.display = "none";
                   } else {
                     content.style.display = "block";
                   }
                 });
               }
-            </script>
+            </script>-->
             <!--/read more-->
           </div>
         </div>
