@@ -51,36 +51,10 @@ function topFunction() {
   //document.documentElement.scrollTop = 0;
 }
 
-function morebutton() {
-  alert('called');
-  if (document.getElementById("aboutextra").style.display == "none") {
-    document.getElementById("aboutextra").style.display = "block";
-    document.getElementById("collapsable").innerHTML = "بیشتر...";
-    alert('expand');
-  } else /*if (document.getElementById("aboutextra").style.display = "block")*/ {
-    document.getElementById("aboutextra").style.display = "none";
-    document.getElementById("collapsable").innerHTML = "کمتر...";
-    alert('expand');
+$("#about-extra-button").click(function(){
+  if ($("#about-extra").css("display") == "none") {
+    $("#about-extra-button").text("کمتر...")
+  } else {
+    $("#about-extra-button").text("بیشتر...")
   }
-}
-
-function moreButton2() {
-  $("#aboutextra").toggle(function () {
-    $("#aboutswitcher span").text("کمتر...");
-    debugger;
-    $("#aboutextra").addClass("d-block");
-  }, function () {
-    $("#aboutswitcher span").text("بیشتر...");
-    $("#aboutextra").removeClass("d-block");
-  });
-}
-
-function moreButton3() {
-  $("#aboutextra").toggle(function () {
-    document.getElementById("aboutextra").style.display = "block";
-    document.getElementById("aboutswitchercontent").innerHTML = "کمتر...";
-  }, function () {
-    document.getElementById("aboutextra").style.display = "none";
-    document.getElementById("aboutswitchercontent").innerHTML = "بیشتر...";
-  });
-}
+  })
