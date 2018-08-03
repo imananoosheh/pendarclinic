@@ -305,6 +305,10 @@ footer {
   height: 180px;
   width: 180px; }
 
+#carousel-img {
+  height: 800px !important;
+  margin: 0 auto; }
+
 @media (max-width: 575.98px) {
   .navbar-brand {
     margin-left: 2rem;
@@ -347,7 +351,10 @@ footer {
 
   #follow {
     position: relative;
-    bottom: 120px; } }
+    bottom: 120px; }
+
+  #carousel-img {
+    height: 200px !important; } }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .navbar-brand {
     margin-left: 2rem;
@@ -390,7 +397,10 @@ footer {
 
   #follow {
     position: relative;
-    bottom: 120px; } }
+    bottom: 120px; }
+
+  #carousel-img {
+    height: 200px !important; } }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .navbar-brand {
     margin-left: 2rem;
@@ -425,7 +435,10 @@ footer {
   #landing-page-logo {
     height: 80px;
     width: 80px;
-    margin-top: 1rem; } }
+    margin-top: 1rem; }
+
+  #carousel-img {
+    height: 200px !important; } }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .navbar-brand {
     margin-left: 0rem;

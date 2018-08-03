@@ -376,6 +376,10 @@ footer {
     height: 180px;
     width: 180px;
 }
+#carousel-img{
+    height:800px !important;
+    margin: 0 auto;
+}
 
 //Coded by PQ - finished
 // Extra small devices (portrait phones, less than 576px)
@@ -429,6 +433,9 @@ footer {
     #follow {
         position: relative;
         bottom: 120px;
+    }
+    #carousel-img{
+        height:200px !important;
     }
 }
 
@@ -484,6 +491,9 @@ footer {
         position: relative;
         bottom: 120px;
     }
+    #carousel-img{
+        height:200px !important;
+    }
 }
 
 // Medium devices (tablets, 768px and up)
@@ -525,6 +535,9 @@ footer {
         height: 80px;
         width: 80px;
         margin-top: 1rem;
+    }
+    #carousel-img{
+        height:200px !important;
     }
 }
 
