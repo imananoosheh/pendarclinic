@@ -615,6 +615,12 @@ footer {
         position: relative;
         bottom: 80px;
     }
+
+    //eliminates distance between 2 parts of collapsible
+    .collapse p.card-text{
+        margin-bottom: 0%;
+    }
+
     /*if instagram embedded code came to footer , comments in here should be removed*/
     /*#map {
         top: 100px;
