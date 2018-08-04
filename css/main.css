@@ -619,8 +619,8 @@ footer {
     bottom: 80px;
   }
 
-  .collapse p.card-text {
-    margin-bottom: 0%;
+  .has-more-collapsed {
+    margin-bottom: 0% !important;
   }
 
   /*if instagram embedded code came to footer , comments in here should be removed*/
