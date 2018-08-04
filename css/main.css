@@ -194,10 +194,12 @@ footer {
   z-index: 20; }
 
 #indexbody {
+  height: 400px;
+  width: 100%;
   background-image: url("../img/rcv/23.jpeg");
-  background-repeat: repeat-x;
   background-attachment: fixed;
-  background-position: center; }
+  background-position: center;
+  background-size: cover; }
 
 #footer-social-icon {
   text-align: center !important; }
