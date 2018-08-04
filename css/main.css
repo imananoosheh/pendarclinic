@@ -354,7 +354,10 @@ footer {
     bottom: 120px; }
 
   #carousel-img {
-    height: 200px !important; } }
+    height: 200px !important; }
+
+  #landing-phone-number {
+    font-size: 0.8rem; } }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .navbar-brand {
     margin-left: 2rem;
@@ -400,7 +403,10 @@ footer {
     bottom: 120px; }
 
   #carousel-img {
-    height: 200px !important; } }
+    height: 200px !important; }
+
+  #landing-phone-number {
+    font-size: 0.8rem; } }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .navbar-brand {
     margin-left: 2rem;
@@ -438,7 +444,10 @@ footer {
     margin-top: 1rem; }
 
   #carousel-img {
-    height: 200px !important; } }
+    height: 200px !important; }
+
+  #landing-phone-number {
+    font-size: 0.8rem; } }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .navbar-brand {
     margin-left: 0rem;
