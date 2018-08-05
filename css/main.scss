@@ -1,6 +1,8 @@
 $font-family: 'Yekan';
-$org-color: #009ce2 !important;
+// $org-color: #009ce2 !important;
+$org-color: rgba(45,59,164,1) !important;
 $font-color: rgb(66, 66, 66) !important;
+$font-color-light: rgb(255, 255, 255) !important;
 $font-color-25: rgba(66, 66, 66, .25) !important;
 $font-color-50: rgba(66, 66, 66, .5) !important;
 $font-color-75: rgba(66, 66, 66, .75) !important;
@@ -100,7 +102,7 @@ button.bg-org:hover {
 .navbar-org .navbar-nav .nav-link.active,
 .navbar-org .navbar-nav .nav-link.show,
 .navbar-org .navbar-nav .show>.nav-link {
-    color: $font-color
+    color: $font-color-light
 }
 
 .navbar-org .navbar-toggler {
@@ -135,7 +137,12 @@ button.bg-org:hover {
     background-image: none;
     border-color: $org-color
 }
-
+.btn-outline-light{
+    color: $font-color-light;
+}
+.btn-outline-light:hover{
+    color: $font-color;
+}
 .btn-outline-org:hover {
     color: #fff;
     background-color: $org-color;
@@ -167,7 +174,7 @@ button.bg-org:hover {
     box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .5)
 } //Bootstrap modified by API Team (IA) - finished here.
 footer {
-    color: $font-color;
+    color: $font-color-light;
     background-color: $org-color;
     padding: 1rem !important;
 }
@@ -253,7 +260,7 @@ footer {
 #footer-social-icon {
     text-align: center !important;
     i {
-        color: $font-color;
+        color: $font-color-light;
     }
 }
 
@@ -304,7 +311,7 @@ footer {
     color: $font-color-75;
 }
 
-#about-pendar-text {
+.about-pendar-text {
     font-size: 1.2rem;
 }
 
@@ -315,7 +322,7 @@ footer {
 }
 
 .pendar-heading__link {
-    background: url(../img/pendar-logo.png) no-repeat;
+    background: url(../img/pendar-logo2-200.png) no-repeat;
     background-size: cover;
     color: transparent;
     display: block;

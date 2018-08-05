@@ -10,11 +10,11 @@ body {
 }
 
 .org-color {
-  color: #009ce2 !important;
+  color: #2d3ba4 !important;
 }
 
 .org-background {
-  background-color: #009ce2 !important;
+  background-color: #2d3ba4 !important;
 }
 
 .navbar-item-color .nav-link {
@@ -58,14 +58,14 @@ body {
 }
 
 .bg-org {
-  background-color: #009ce2 !important;
+  background-color: #2d3ba4 !important;
 }
 
 a.bg-org:focus,
 a.bg-org:hover,
 button.bg-org:focus,
 button.bg-org:hover {
-  background-color: #009ce2 !important;
+  background-color: #2d3ba4 !important;
 }
 
 .navbar-org .navbar-brand {
@@ -94,7 +94,7 @@ button.bg-org:hover {
 .navbar-org .navbar-nav .nav-link.active,
 .navbar-org .navbar-nav .nav-link.show,
 .navbar-org .navbar-nav .show > .nav-link {
-  color: #424242 !important;
+  color: white !important;
 }
 
 .navbar-org .navbar-toggler {
@@ -120,20 +120,28 @@ button.bg-org:hover {
 }
 
 .border-org {
-  border-color: #009ce2 !important;
+  border-color: #2d3ba4 !important;
 }
 
 .btn-outline-org {
   color: #424242 !important;
   background-color: transparent;
   background-image: none;
-  border-color: #009ce2 !important;
+  border-color: #2d3ba4 !important;
+}
+
+.btn-outline-light {
+  color: white !important;
+}
+
+.btn-outline-light:hover {
+  color: #424242 !important;
 }
 
 .btn-outline-org:hover {
   color: #fff;
-  background-color: #009ce2 !important;
-  border-color: #009ce2 !important;
+  background-color: #2d3ba4 !important;
+  border-color: #2d3ba4 !important;
 }
 
 .btn-outline-org.focus,
@@ -143,7 +151,7 @@ button.bg-org:hover {
 
 .btn-outline-org.disabled,
 .btn-outline-org:disabled {
-  color: #009ce2 !important;
+  color: #2d3ba4 !important;
   background-color: transparent;
 }
 
@@ -151,8 +159,8 @@ button.bg-org:hover {
 .btn-outline-org:not(:disabled):not(.disabled):active,
 .show > .btn-outline-org.dropdown-toggle {
   color: #424242 !important;
-  background-color: #009ce2 !important;
-  border-color: #009ce2 !important;
+  background-color: #2d3ba4 !important;
+  border-color: #2d3ba4 !important;
 }
 
 .btn-outline-org:not(:disabled):not(.disabled).active:focus,
@@ -162,8 +170,8 @@ button.bg-org:hover {
 }
 
 footer {
-  color: #424242 !important;
-  background-color: #009ce2 !important;
+  color: white !important;
+  background-color: #2d3ba4 !important;
   padding: 1rem !important;
 }
 
@@ -193,7 +201,7 @@ footer {
 #map {
   width: 100%;
   height: 300px;
-  background-color: #009ce2 !important;
+  background-color: #2d3ba4 !important;
 }
 
 .outer-flex {
@@ -231,7 +239,7 @@ footer {
   height: 90%;
   top: 5%;
   left: 5%;
-  border: 5px solid #009ce2 !important;
+  border: 5px solid #2d3ba4 !important;
   background: #f4f4f4 !important;
   z-index: 20;
 }
@@ -249,7 +257,7 @@ footer {
   text-align: center !important;
 }
 #footer-social-icon i {
-  color: #424242 !important;
+  color: white !important;
 }
 
 #landingpage button {
@@ -263,7 +271,7 @@ footer {
   right: 20px;
   z-index: 99;
   font-size: 18px;
-  border: 1px solid #009ce2 !important;
+  border: 1px solid #2d3ba4 !important;
   outline: none;
   color: #424242 !important;
   cursor: pointer;
@@ -297,7 +305,7 @@ footer {
   color: rgba(66, 66, 66, 0.75) !important;
 }
 
-#about-pendar-text {
+.about-pendar-text {
   font-size: 1.2rem;
 }
 
@@ -308,7 +316,7 @@ footer {
 }
 
 .pendar-heading__link {
-  background: url(../img/pendar-logo.png) no-repeat;
+  background: url(../img/pendar-logo2-200.png) no-repeat;
   background-size: cover;
   color: transparent;
   display: block;
@@ -321,7 +329,7 @@ footer {
 }
 
 .pendar-heading {
-  background-color: #009ce2 !important;
+  background-color: #2d3ba4 !important;
   width: 140px;
   background-position: center bottom;
   height: 100px;
