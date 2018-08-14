@@ -322,7 +322,7 @@ footer {
   box-shadow: 0px 2px 15px grey !important; }
 
 .bcolor-hover:hover {
-  color: #424242 !important !important; }
+  color: #424242 !important; }
 
 @media (max-width: 575.98px) {
   .navbar-brand {
