@@ -390,6 +390,14 @@ footer {
     margin: 0 auto;
 }
 
+.white-hover:hover{
+  background-color: #FFF !important;
+  box-shadow: 0px 2px 15px grey !important;
+}
+
+.bcolor-hover:hover{
+    color: $font-color !important;
+}
 //Coded by PQ - finished
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
